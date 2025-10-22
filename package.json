@@ -6,7 +6,7 @@
   "description": " ",
   "scripts": {
     "dev": "vite",
-    "start": "npm run build && vite preview --port 2025",
+    "start": "npm run build && vite preview --port 2052",
     "build": "vite build"
   },
   "dependencies": {

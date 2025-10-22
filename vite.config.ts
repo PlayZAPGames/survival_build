@@ -13,9 +13,9 @@ export default defineConfig(({ mode }) => {
       strictPort: true, // Optional: prevent falling back to another port if specified port is in use
     },
     preview: {
-      port: 2025, // Optional: you can change it
+      port: 2052, // Optional: you can change it
       strictPort: true,
-      allowedHosts: ['ludo.playzap.games']  // ✅ Add this line
+      allowedHosts: ['survival.playzap.games']  // ✅ Add this line
     },
     plugins: [react()],
     base: "./",
