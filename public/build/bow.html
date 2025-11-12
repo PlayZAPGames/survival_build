@@ -87,7 +87,7 @@ body:has(#__unity_direct_input) #__unity_direct_input_backdrop {
     <canvas id="unity-canvas" tabindex="-1"></canvas>
     <div id="__unity_direct_input_backdrop"></div>
     <!-- Loader -->
-    <script src="Build/SnakeRoyaleBuild.loader.js"></script>
+    <script src="Build/Survival_Build.loader.js"></script>
 
     <script>
       // ===== Fullscreen & resize =====
@@ -152,13 +152,13 @@ body:has(#__unity_direct_input) #__unity_direct_input_backdrop {
 
       // ===== Unity boot =====
       const config = {
-        dataUrl: "Build/Survival_Build.data.unityweb",
-        frameworkUrl: "Build/Survival_Build.framework.js.unityweb",
-        codeUrl: "Build/Survival_Build.wasm.unityweb",
+        dataUrl: "Build/Survival_Build.data",
+        frameworkUrl: "Build/Survival_Build.framework.js",
+        codeUrl: "Build/Survival_Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Survival",
-        productVersion: "1.0.17",
+        productName: "Survival_Playzap",
+        productVersion: "0.0.1",
         // If you enable MANUAL_BUFFER_SIZING above, uncomment the next line:
         // matchWebGLToCanvasSize: false,
         devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
