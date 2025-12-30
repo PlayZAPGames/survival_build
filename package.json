@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "source": "./index.html",
   "type": "module",
-  "name": "bows-project",
+  "name": "survival-project",
   "description": " ",
   "scripts": {
     "dev": "vite",

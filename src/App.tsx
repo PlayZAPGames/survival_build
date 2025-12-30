@@ -70,7 +70,7 @@ function HomeRedirect() {
 
     // Redirect after short delay (allow async calls)
     const timer = setTimeout(() => {
-      window.location.href = "/build/bow.html";
+      window.location.href = "/build/survival.html";
     }, 800);
 
     return () => clearTimeout(timer);
@@ -101,7 +101,7 @@ function ReferralRedirect() {
     }
     
     // Redirect to main page
-    window.location.href = '/build/bow.html';
+    window.location.href = '/build/survival.html';
   }, [location.search]);
   
   return null; // or a loading spinner
