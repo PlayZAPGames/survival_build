@@ -154,7 +154,7 @@ export const LoginPopup = (): JSX.Element => {
                         <div className="flex items-center justify-center gap-2">
                             <img src="/BOWS_Coin.png" alt="Bows coin" className="w-5 h-5 sm:w-6 sm:h-6" />
                             <span className="font-bold text-[#ffbe47] text-[16px] sm:text-[20px] text-center">
-                                Earn $CORE COINS
+                                Earn SHRDs
                             </span>
                         </div>
 
