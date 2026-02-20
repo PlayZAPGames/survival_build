@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 
 # env file
+.env
 
 # Allow WebGL build output inside public/build even if global ignores build/
 !public/build/
